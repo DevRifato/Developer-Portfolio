@@ -16,6 +16,9 @@ a {
 li {
   list-style: none;
 }
+p {
+  color: #757575;
+}
 
 button {
   background: #fd6e0a;
@@ -28,22 +31,67 @@ button {
   padding: 19px 36px;
 }
 /* -----------------------------navbar */
+header {
+  background-color: #fff8f3;
+}
 nav {
   display: flex;
-  margin: 51px 230px;
+  padding-top: 51px;
+  margin: 0px 230px;
+  margin-bottom: 40px;
   justify-content: space-between;
   align-items: center;
 }
 #logo {
-    font-size: 45px;
-    font-weight: 800;
+  font-size: 45px;
+  font-weight: 800;
 }
 ul {
-    display: flex;
-    gap: 51px;
-    align-items: center;
+  display: flex;
+  gap: 51px;
+  align-items: center;
 }
 .links li a {
   font-size: 20px;
   font-weight: 400;
+}
+/* --------------------banner section */
+.banner {
+  display: flex;
+  padding: 38px 38px 0px 168px;
+  background-image: url(./images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  justify-content: space-between;
+  align-items: center;
+}
+/* --------------------banner-title */
+.banner-title h2 {
+    color: #474747;
+    font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.banner-title h1 {
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.banner-title p {
+  width: 585px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.Contact {
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 19px 36px;
+}
+/* --------------------banner-img */
+.banner .banner-img{
+    width: 584px;
 }
