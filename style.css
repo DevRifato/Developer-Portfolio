@@ -33,6 +33,9 @@ button {
 /* -----------------------------navbar */
 header {
   background-color: #fff8f3;
+  background-image: url(./images/developer.png);
+  background-repeat: no-repeat;
+  background-position: left ;
 }
 nav {
   display: flex;
@@ -58,7 +61,7 @@ ul {
 /* --------------------banner section */
 .banner {
   display: flex;
-  padding: 38px 38px 0px 168px;
+  padding: 38px 44px 0px 230px;
   background-image: url(./images/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -78,7 +81,7 @@ ul {
   margin-bottom: 20px;
 }
 .banner-title p {
-  width: 585px;
+  max-width: 585px;
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 30px;
@@ -92,6 +95,3 @@ ul {
   padding: 19px 36px;
 }
 /* --------------------banner-img */
-.banner .banner-img{
-    width: 584px;
-}
