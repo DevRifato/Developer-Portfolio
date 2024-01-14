@@ -5,4 +5,49 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
+span {
+  color: #fd6e0a;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #474747;
+}
+button {
+  color: white;
+  background-color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 5px;
+  padding: 19px 36px;
+}
 /* ----------------------------------------------------------------- */
+
+/* header section */
+header {
+  background-color: #FFF8F3;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  margin: auto;
+  padding: 50px 0px;
+}
+.logo {
+  font-size: 45px;
+  font-weight: 800;
+}
+.links {
+  display: flex;
+  gap: 51px;
+  align-items: center;
+}
+.links li a {
+  font-size: 20px;
+  font-weight: 400;
+}
