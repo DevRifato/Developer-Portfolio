@@ -5,6 +5,10 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
+.container{
+  width: 1140px;
+  margin: auto;
+}
 span {
   color: #fd6e0a;
 }
@@ -27,8 +31,12 @@ button {
 /* ----------------------------------------------------------------- */
 
 /* header section */
+/* nav */
 header {
-  background-color: #FFF8F3;
+  background-color: #fff8f3;
+  background-image: url(./images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 nav {
   display: flex;
@@ -36,7 +44,7 @@ nav {
   align-items: center;
   width: 1140px;
   margin: auto;
-  padding: 50px 0px;
+  padding: 20px 0px 0px 0px;
 }
 .logo {
   font-size: 45px;
@@ -50,4 +58,50 @@ nav {
 .links li a {
   font-size: 20px;
   font-weight: 400;
+}
+
+/* header title section */
+.title-sec {
+  display: flex;
+  width: 1670px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  /* background-image: url(./images/developer.png);
+  background-repeat: no-repeat;
+  background-position: center left; */
+}
+.head-title{
+  margin-left: 225px;
+}
+.head-title h2 {
+  color: #474747;
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.head-title h1 {
+  font-size: 100px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.head-title p {
+  color: #757575;
+  width: 585px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.contact {
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 19px 36px;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+/* heade img  */
+.rifto-img {
+  width: 800px;
 }
