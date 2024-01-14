@@ -9,7 +9,7 @@
   width: 1140px;
   margin: 150px auto;
 }
-span{
+span {
   color: #fd6e0a;
 }
 li {
@@ -18,6 +18,11 @@ li {
 a {
   text-decoration: none;
   color: #474747;
+}
+p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
 }
 button {
   color: white;
@@ -29,13 +34,13 @@ button {
   padding: 19px 36px;
 }
 /* ----------------------------------------------------------------- */
-header{
-  background-color: #FFF8F3;
-  background-image: url(./images/header_bg.png),url(./images/developer.png);
+header {
+  background-color: #fff8f3;
+  background-image: url(./images/header_bg.png), url(./images/developer.png);
   background-repeat: no-repeat;
   background-position: bottom right, center left;
 }
-nav{
+nav {
   width: 1140px;
   margin: auto;
   padding: 30px 0px;
@@ -43,13 +48,13 @@ nav{
   justify-content: space-between;
   align-items: center;
 }
-nav ul{
+nav ul {
   display: flex;
   gap: 50px;
   align-items: center;
 }
 
-nav h1{
+nav h1 {
   font-size: 45px;
   font-weight: 800;
 }
@@ -57,27 +62,27 @@ nav h1{
 /* ==========================================
                     banner
 ============================================= */
-.banner{
+.banner {
   width: 1400px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.banner-title h3{
+.banner-title h3 {
   color: #474747;
   font-size: 45px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-.banner-title h2{
+.banner-title h2 {
   font-size: 85px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.banner-title p{
+.banner-title p {
   color: #757575;
   width: 585px;
   font-size: 18px;
@@ -85,7 +90,7 @@ nav h1{
   margin-bottom: 30px;
 }
 
-.banner-title a{
+.banner-title a {
   color: #fd6e0a;
   font-size: 20px;
   font-weight: 700;
@@ -98,3 +103,164 @@ nav h1{
 /* ==========================================
                     About Me
 ============================================= */
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+  width: 1140px;
+  height: 550px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff8f3;
+}
+
+.about-me-wrapper {
+  width: 827px;
+}
+
+.about-me-title h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.about-me-title p {
+  margin: 30px 0px;
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.about-me-adress {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ==========================================
+                    What I do
+============================================= */
+
+.what-i-do-title {
+  text-align: center;
+}
+
+.what-i-do-title h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.what-i-do-title p {
+  width: 909px;
+  margin: 50px auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 33px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin: 20px 0px 30px 0px;
+}
+.card p {
+  width: 201px;
+}
+/* ==========================================
+                      My Resume
+  ============================================= */
+.my-resume-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-resume h1 {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 113px;
+}
+
+/* My Edu */
+.my-education h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.my-education h3 {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.my-education h4 {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.my-education p {
+  width: 511px;
+  margin-bottom: 30px;
+}
+
+hr {
+  width: 558px;
+  border: 1px solid #d1d1d1;
+  margin-bottom: 30px;
+}
+.resume-btn {
+  text-align: center;
+}
+
+/* ==========================================
+                        Footer
+  ============================================= */
+  footer{
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF8F3;
+  }
+  .footer-container{
+    width: 1140px;
+    margin: auto ;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-title h2{
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  .footer-title p{
+    width: 562px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .social-icon img{
+    margin-right: 24px;
+  }
+
+  /* footer input */
+  .footer-input{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .footer-input input{
+    border: 0;
+    padding: 10px 30px;
+  }
+  .footer-btn{
+    margin-top: 24px;
+  }
