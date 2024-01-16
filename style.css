@@ -157,7 +157,6 @@ nav h1 {
 .cards {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .card {
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -223,44 +222,138 @@ hr {
 /* ==========================================
                         Footer
   ============================================= */
-  footer{
-    height: 780px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #FFF8F3;
-  }
-  .footer-container{
-    width: 1140px;
-    margin: auto ;
-    display: flex;
-    justify-content: space-between;
+footer {
+  height: 780px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff8f3;
+}
+.footer-container {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.footer-title p {
+  width: 562px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.social-icon img {
+  margin-right: 24px;
+}
+
+/* footer input */
+.footer-input {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer-input input {
+  border: 0;
+  padding: 10px 30px;
+}
+.textarea {
+  width: 416px;
+  height: 180px;
+  border: 0;
+}
+.footer-btn {
+  margin-top: 24px;
+}
+
+.hide {
+  display: none;
+}
+/* ==========================================
+                Responsive
+============================================= */
+
+/* Small Devices */
+@media screen and (max-width: 576px) {
+  main {
+    margin: 10px;
   }
 
-  .footer-title h2{
-    font-size: 35px;
-    font-weight: 700;
+  .container,
+  hr {
+    width: auto;
   }
 
-  .footer-title p{
-    width: 562px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-  }
-  .social-icon img{
-    margin-right: 24px;
+  /* -------------Header--------------- */
+  header{
+    background-image:none;
   }
 
-  /* footer input */
-  .footer-input{
-    display: flex;
+  nav{
+    width: auto;
+    gap: 20px;
     flex-direction: column;
-    gap: 24px;
   }
-  .footer-input input{
-    border: 0;
-    padding: 10px 30px;
+
+  .banner{
+    width: auto;
+    flex-direction: column;
   }
-  .footer-btn{
-    margin-top: 24px;
+  .banner-title{
+    padding: 10px;
   }
+  .banner-title a{
+    margin-left: 0;
+  }
+  .banner-btn{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+  }
+  .banner-title p{
+    width: auto;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  /* -------------About Me--------------- */
+  .about-me {
+    padding: 30px 5px;
+  }
+  .about-me-adress {
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* -------------What I do--------------- */
+  .what-i-do-title p {
+    width: auto;
+  }
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* -------------My Resume--------------- */
+  .my-resume-wrapper {
+    flex-direction: column;
+  }
+  .my-education p {
+    width: auto;
+  }
+  /* -------------Footer--------------- */
+  .textarea {
+    width: auto;
+  }
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .footer-title p {
+    width: auto;
+  }
+}
